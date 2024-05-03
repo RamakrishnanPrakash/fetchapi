@@ -1,0 +1,94 @@
+.Food{
+    width: 100%;
+    min-height: 90vh;
+    overflow: hidden;
+    background: linear-gradient(60deg,#fff  51%,#b053ec 30% ,#cd4ec3 20%);;
+}
+.Food-container{
+    background-color: #fff;
+}
+
+.food-nav{
+    width: 80%;
+    background-color:#af53ec;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.food-nav ul{
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.food-nav-container{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 99;
+    padding: 10px 0;
+}
+.food-nav ul li{
+    list-style: none;
+}
+.food-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.food-container{
+    width: 95%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background: #b053ec;
+    background: linear-gradient(90deg, rgba(176,83,236,1) 35%, rgba(205,78,195,1) 100%);
+    margin: 15px auto;
+    padding: 15px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 50px 1px;
+}
+.card{
+    width: 300px;
+    min-height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #22222230;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 2px 2px 15px #222;
+    margin: 10px 10px;
+}
+
+.card button{
+    outline: 0;
+    border: 0;
+    padding: 6px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:#f30976;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-img img{
+    width:210px;
+    height: 179px;
+}
+.card img,
+h3,
+h4,
+p,button{
+    margin: 10px 15px;
+    text-align: left;
+}
